@@ -4,7 +4,7 @@ import axios from 'axios'
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts'
 import './App.css'
 
-const API_URL = 'http://localhost:8000'
+const API_URL = 'https://invoice-ocr-backend-production-production.up.railway.app'
 
 function App() {
   const [invoices, setInvoices] = useState([])
